@@ -1,8 +1,8 @@
 ---
 layout: default
-img: phones.png
+img: chocrainbowslice_sq.jpg
 category: Services
 title: Google Web Fonts and<br>Font Awesome Icons
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+"... amazing Chocolate Rainbow birthday cake. Made by the wonderful and talented Lara Moss - thanks so much [#prettyniceslice](http://www.instagram.com/prettyniceslice)"

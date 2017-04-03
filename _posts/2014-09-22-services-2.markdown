@@ -1,7 +1,7 @@
 ---
 layout: default
-img: dog.png
-category: Services
+img: cupcakes.jpg
+category: Cupcakes
 title: 3D Device Mockups<br>by PSDCovers
 description: |
 ---
