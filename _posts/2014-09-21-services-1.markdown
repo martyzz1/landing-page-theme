@@ -1,8 +1,8 @@
 ---
 layout: default
 img: rainbowbirthday.jpg
-category: Birthday cakes
-title: Birthdays
+category: Services
+title: Special Occasions
 description: |
 ---
   "Highlight of the party. Thanks so much Lara Moss cake maker extraordinaire"

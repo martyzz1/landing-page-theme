@@ -11,7 +11,18 @@ description: > # "Write an awesome description for your new site here.
   baking rainbow cakes, cupcakes, bespoke cakes, birthday cakes, 
   description.
 copyright: 'Copyright &copy; 2017 Lara Moss. All Rights Reserved.'
-# credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Defaults             #
+# ----------------------- #
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      telephone:
+        e164: "+447734702905"
+        pretty: "07734 702905"
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -27,8 +38,12 @@ permalink: pretty
 
 social:
   - title: instagram
+    icon: instagram
     url: https://instagram.com/prettyniceslice
   - title: facebook
+    icon: facebook
     url: https://fb.me/prettyniceslice
-  - title: tel
-    url: 07734702905
+  - title: email
+    icon: envelope
+    url: mailto:lara@prettyniceslice.com
+

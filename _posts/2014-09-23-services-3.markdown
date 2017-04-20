@@ -2,7 +2,7 @@
 layout: default
 img: chocrainbowslice_sq.jpg
 category: Services
-title: Google Web Fonts and<br>Font Awesome Icons
+title: Birthdays
 description: |
 ---
 "... amazing Chocolate Rainbow birthday cake. Made by the wonderful and talented Lara Moss - thanks so much [#prettyniceslice](http://www.instagram.com/prettyniceslice)"
