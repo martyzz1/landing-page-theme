@@ -23,7 +23,11 @@ defaults:
       telephone:
         e164: "+447734702905"
         pretty: "07734 702905"
-
+      location:
+        latitude: 51.447017
+        longitude: -0.035460
+      mapbox:
+        api_key: 'pk.eyJ1IjoibWFydHl6ejEiLCJhIjoiY2oxcm9iOGl5MDAwNTJ3bXcyeWdiNjlmNiJ9.JDrNea7qCgnK7-lObr3N_g'
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
@@ -31,6 +35,12 @@ defaults:
 # Build settings
 markdown: kramdown
 permalink: pretty
+gems:
+  - jekyll-maps
+
+maps:
+  google:
+    api_key: AIzaSyB9Ht0M0Wx6DmTQNOZSy0qcCd7UZVYW-uY
 
 # ----------------------- #
 #   3rd Party Settings    #

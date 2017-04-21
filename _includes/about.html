@@ -5,9 +5,27 @@
               <br/><br/>
               <h2>About</h2>
               <br/>
-                <p>I've been baking cakes for family and friends for most of my life. I love to bake with my children, like my mother and I baked together many years ago. As my youngest is about to embark on her first day at Nursery, I've decided to pluck up the courage - and bow to pressure from my friends - and create <a href="">#prettyniceslice</a> </p>
-                <p>Below are a few of my most recent creations<b>
+                <p>I've been baking cakes for family and friends for most of my life. I love to bake with my children, like my mother and I baked together many years ago. As my youngest is about to embark on her first day at Nursery, I've decided to pluck up the courage - and bow to pressure from my friends - and create <a href="https://www.instagram.com/prettyniceslice/">#prettyniceslice</a> </p>
+                <p> At the moment I only offer a local pickup or drop off service (depending on your location). I am based near Brockley, Dulwich, Catford, Forest Hill in South east London.  </p>
                 <br/>
-              </div>
+                <div id='map' style='width: 100%; height: 250px;' class="dark"></div>
+                  <script>
+                    L.mapbox.accessToken = "{{ page.mapbox.api_key }}";
+                    var map = L.mapbox.map('map', 'mapbox.light', {
+                        gridControl: false,
+                        scrollWheelZoom: false,
+                        })
+                        .setView([{{page.location.latitude}}, {{page.location.longitude}}], 13);
+
+                    /*var map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/mapbox/light-v9',
+                        interactive: false,
+                        zoom: 10,
+                        center: [{{page.location.longitude}}, {{page.location.latitude}} ],
+                    });*/
+                  </script>
+                </div>
+             </div>
         </div>
     </section>
