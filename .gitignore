@@ -1,3 +1,7 @@
 _site
 dev.env
 *.swp
+.DS_Store
+Gemfile.lock
+
+
